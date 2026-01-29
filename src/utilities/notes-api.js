@@ -1,11 +1,8 @@
 export async function getNotes() {
   try { 
-    console.log(`${import.meta.env.VITE_API_URL}/api`)
     const response = await fetch(`${import.meta.env.VITE_API_URL}/api/notes`);
     if (!response.ok) throw new Error("API Error! Response was not ok.");
-    console.log(response.json);
     const data = await response.json();
-    console.log(await data);
     return data;
   } catch(error) {
     console.error(error);
