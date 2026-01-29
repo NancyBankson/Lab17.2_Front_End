@@ -1,16 +1,22 @@
-# React + Vite
+# Lab 17.2 Full Stack Deployment    
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+In this lab, we created both front-end and back-end applications and connected them so that the database could be accessed and updated through the front-end URL.  Both repositories were then deployed on Render.  The URL can be accessed at https://lab17-2-front-end.onrender.com/.  The back-end is deployed here https://lab17-2-back-end.onrender.com/.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+The code used for this assingment was based on Bryan's code along for Jan 28th.
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## Tools
 
-## Expanding the ESLint configuration
+- JavaScript
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Reflection
+
+I had some difficulty with this assignment, but Hasna pointed out that my client origin was incorrect in my .env file.  Once that was fixed, the front-end was able to connect to the database.
